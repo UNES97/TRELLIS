@@ -15,6 +15,7 @@ from trellis.pipelines import TrellisImageTo3DPipeline
 from trellis.representations import Gaussian, MeshExtractResult
 from trellis.utils import render_utils, postprocessing_utils
 
+pipeline = keras_ocr.pipeline.Pipeline()
 
 MAX_SEED = np.iinfo(np.int32).max
 TMP_DIR = "/tmp/Trellis-demo"
